@@ -19,7 +19,7 @@ def main(page: ft.Page):
             View(
                 "/",
                 [
-                    AppBar(title=Text("Seja bem vindo ao INSS!"), bgcolor=Colors.PRIMARY_CONTAINER),
+
                     ElevatedButton(text="Simulador de aposentadoria", on_click=lambda _: page.go("/segunda")),
                     ElevatedButton(text="Ver regras do simulador", on_click=lambda _: page.go("/terceira")),
 
